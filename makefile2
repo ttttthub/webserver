@@ -1,0 +1,6 @@
+XX=g++
+LD=ld
+BUILD_DIR=./build
+ 
+$/main:main.cc thread_pool.h locker.h Task.c  rlog.h rlog.cc
+	$(XX) $< Task.c rlog.cc  -o main  -lpthread
