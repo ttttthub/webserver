@@ -14,7 +14,14 @@ Technical points：
 5.对时间模块进行了优化，无需每次都调用localtime_r().
 
 
+
+
+
+
+
+
 todo:
+
 1.完善http请求报头解析；
 
 2.http长连接，且如何去管理删除长连接；
